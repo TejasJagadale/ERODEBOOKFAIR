@@ -1,0 +1,113 @@
+.festival-container {
+  background: url("https://makalukkaga.mpeoplesnet.com/imagesebf/img-8.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+  font-family: "Noto Sans Tamil", sans-serif;
+  text-align: center;
+}
+
+.venuehead {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #293241;
+}
+
+.venuesubhead {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #293241;
+}
+
+.festival-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logovenue {
+  width: 70px;
+  padding: 20px;
+  border-radius: 40%;
+  height: auto;
+  background-color: white;
+}
+
+.festival-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  color: #f7d000;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.details {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  line-height: 1.8;
+}
+
+.details strong {
+  color: #ffeb3b;
+}
+
+.motto {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.footer-note {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #ffa500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .venuehead {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #293241;
+  }
+  .venuesubhead {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #293241;
+  }
+  .festival-container {
+    padding: 1rem;
+  }
+  .logovenue {
+    display: none;
+  }
+
+  .festival-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-title {
+    font-size: 1.8rem;
+  }
+
+  .details {
+    font-size: 1rem;
+  }
+}
