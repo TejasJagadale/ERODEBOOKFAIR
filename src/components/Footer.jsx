@@ -27,9 +27,9 @@ const Footer = () => {
         <div className="footer-section">
           <p>எங்களை பின்தொடரவும்:</p>
           <div className="footer-socials">
-            <a href="#" className="footer-link"><Facebook /></a>
-            <a href="#" className="footer-link"><Instagram /></a>
-            <a href="#" className="footer-link"><YouTube /></a>
+            <a href="https://www.facebook.com/share/16gTkLiZqt/" className="footer-link"><Facebook /></a>
+            <a href="https://www.instagram.com/makkalsinthanaiperavai?igsh=MTh4OXpsYzFidGczZQ==" className="footer-link"><Instagram /></a>
+            <a href="https://youtube.com/@makkalsinthanaiperavai?feature=shared" className="footer-link"><YouTube /></a>
           </div>
         </div>
       </div>

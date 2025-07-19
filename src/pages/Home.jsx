@@ -206,7 +206,7 @@ const Home = () => {
                       <img 
                         key={imgIndex} 
                         src={image} 
-                        alt={`${item.title} - Image ${imgIndex + 1}`} 
+                        alt="no img found" 
                         className="accordion-image"
                         loading="lazy"
                       />
